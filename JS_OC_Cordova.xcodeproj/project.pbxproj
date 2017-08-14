@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12E305A1F41406500F01F92 /* Cordova.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B12E30591F41406500F01F92 /* Cordova.podspec */; };
 		B95413251D9BB9B600600D09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95413241D9BB9B600600D09 /* main.m */; };
 		B95413281D9BB9B600600D09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95413271D9BB9B600600D09 /* AppDelegate.m */; };
 		B954132B1D9BB9B600600D09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B954132A1D9BB9B600600D09 /* ViewController.m */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B12E30591F41406500F01F92 /* Cordova.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cordova.podspec; sourceTree = SOURCE_ROOT; };
 		B95413201D9BB9B600600D09 /* JS_OC_Cordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JS_OC_Cordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95413241D9BB9B600600D09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B95413261D9BB9B600600D09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				B954132A1D9BB9B600600D09 /* ViewController.m */,
 				B954139C1D9CA86400600D09 /* HLAudioPlayer.h */,
 				B954139D1D9CA86400600D09 /* HLAudioPlayer.m */,
+				B12E30591F41406500F01F92 /* Cordova.podspec */,
 				B954139E1D9CA86400600D09 /* shake_sound_male.wav */,
 				B95413941D9BCC0900600D09 /* www */,
 				B95413231D9BB9B600600D09 /* Supporting Files */,
@@ -375,6 +378,7 @@
 				B954132E1D9BB9B600600D09 /* Main.storyboard in Resources */,
 				B95413951D9BCC0900600D09 /* www in Resources */,
 				B95413A01D9CA86400600D09 /* shake_sound_male.wav in Resources */,
+				B12E305A1F41406500F01F92 /* Cordova.podspec in Resources */,
 				B95413931D9BC21A00600D09 /* config.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,6 +578,7 @@
 				B95413391D9BB9B600600D09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
